@@ -1,2 +1,1 @@
-# navigate-to-previous-or-next-views-using-navigation-arrows-flutter-date-range-picker
-How to navigate to the previous or next views using navigation arrows in the Flutter date range picker (SfDateRangePicker)
+**[View document in Syncfusion Flutter Knowledge base](https://www.syncfusion.com/kb/12270/how-to-navigate-to-the-previous-or-next-views-using-navigation-arrows-in-the-flutter-date)**
