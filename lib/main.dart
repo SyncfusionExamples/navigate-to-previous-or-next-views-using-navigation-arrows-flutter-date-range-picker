@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 
-void main() => runApp(NavigationArrow());
+void main() => runApp(const NavigationArrow());
 
 class NavigationArrow extends StatelessWidget {
+  const NavigationArrow({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +17,7 @@ class NavigationArrow extends StatelessWidget {
             view: DateRangePickerView.month,
             showNavigationArrow: true,
             headerStyle:
-                DateRangePickerHeaderStyle(textAlign: TextAlign.center),
+            const DateRangePickerHeaderStyle(textAlign: TextAlign.center),
           ),
         ),
       ),
